@@ -1,0 +1,125 @@
+<!-- FAQ PAGE FOR TRINITY PILLARS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FAQ - Trinity Pillars</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #fff9ef;
+color: #26538D;
+}
+
+header {
+background-color: #26538D;
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+.hero {
+width: 100%;
+max-height: 400px;
+overflow: hidden;
+}
+
+.hero img {
+width: 100%;
+display: block;
+object-fit: cover;
+}
+
+.faq-section {
+padding: 60px 20px;
+max-width: 900px;
+margin: 0 auto;
+}
+
+h1 {
+text-align: center;
+color: #26538D;
+}
+
+.faq-item {
+background-color: white;
+margin-bottom: 15px;
+border-radius: 5px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+overflow: hidden;
+}
+
+.faq-question {
+padding: 18px 24px;
+cursor: pointer;
+font-weight: bold;
+background-color: #fff;
+}
+
+.faq-answer {
+padding: 0 24px 18px;
+display: none;
+color: #545454;
+font-size: 15px;
+}
+
+footer {
+background-color: #26538D;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Trinity Pillars — FAQ</h2>
+</header>
+
+<div class="hero">
+<img src="https://raw.githubusercontent.com/TrinityPillars/assets/main/hero-faq.jpg" alt="FAQ Hero Shot" />
+</div>
+
+<section class="faq-section">
+<h1>Frequently Asked Questions</h1>
+
+<div class="faq-item">
+<div class="faq-question">What services does Trinity Pillars offer?</div>
+<div class="faq-answer">We provide lead generation, social media strategy, content creation, and CRM & data automation services tailored for scalable growth.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Who is Trinity Pillars for?</div>
+<div class="faq-answer">We work with startups, real estate agencies, professional brands, and growing companies that want measurable online growth.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">How do we start working together?</div>
+<div class="faq-answer">You can fill out the contact form or email us directly at trinitypillarsmarketing@gmail.com and we’ll schedule a discovery call.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question">Do you offer custom strategies?</div>
+<div class="faq-answer">Yes. Every client receives a tailored approach designed around their brand, audience, and business goals.</div>
+</div>
+</section>
+
+<footer>
+© 2025 Trinity Pillars · trinitypillarsmarketing@gmail.com · @TrinityPillars
+</footer>
+
+<script>
+const questions = document.querySelectorAll(".faq-question");
+questions.forEach(q => {
+q.addEventListener("click", () => {
+const answer = q.nextElementSibling;
+answer.style.display = answer.style.display === "block" ? "none" : "block";
+});
+});
+</script>
+</body>
+</html>
